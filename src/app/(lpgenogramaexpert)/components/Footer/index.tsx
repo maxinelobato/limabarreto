@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="shadow-zinc-500/20 shadow-t-md">
+    <footer className="shadow-zinc-500/20 shadow-t-md z-50">
       <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
         <div className="mx-auto max-w-5xl p-4 py-10">
           <p className="text-center text-sm text-white">AVISO LEGAL</p>

@@ -25,7 +25,7 @@ type HeroPropertyProps = ComponentProps<'div'>
 
 export function HeroProperty(props: HeroPropertyProps) {
   return (
-    <div className="z-50 mt-44 pt-8 sm:my-20 sm:py-0">
+    <div className="mt-44 pt-8 sm:my-10 sm:py-0">
       <div className="mx-auto max-w-6xl justify-between gap-x-6 px-2 md:flex">
         <div className="max-w-3xl space-y-4" {...props} />
       </div>
@@ -37,7 +37,7 @@ type HeroPropertyFooterProps = ComponentProps<'div'>
 
 export function HeroPropertyFooter(props: HeroPropertyFooterProps) {
   return (
-    <div className="z-50 pt-2 sm:my-10 sm:py-0">
+    <div className="sm:my-8 sm:py-0">
       <div className="mx-auto justify-center gap-x-2 px-4 md:flex">
         <div className="max-w-full space-y-2" {...props} />
       </div>
@@ -66,7 +66,7 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className="mt-4 pb-2 text-2xl font-semibold uppercase text-brandSecondary md:text-4xl"
+      className="mt-4 pb-2 text-xl font-semibold uppercase text-white md:text-3xl"
       {...props}
     />
   )

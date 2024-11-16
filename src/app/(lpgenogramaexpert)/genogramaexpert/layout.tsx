@@ -22,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-zinc-950 antialiased`}>
+      <body
+        suppressHydrationWarning={true}
+        className={`${roboto.className} bg-zinc-950 antialiased`}
+      >
         {children}
       </body>
     </html>
