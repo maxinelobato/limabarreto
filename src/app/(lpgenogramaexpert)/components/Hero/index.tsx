@@ -87,7 +87,7 @@ export function Hero() {
                 </HeroCardP1>
               </div>
             </HeroCardText>
-            <ButtonHome href="https://go.hotmart.com/N96345039N?dp=1">
+            <ButtonHome href="https://go.hotmart.com/N96345039N">
               <ButtonHomeText>acessar o site completo</ButtonHomeText>
               <ButtonHomeFlex>
                 <ArrowCircleUpRight
