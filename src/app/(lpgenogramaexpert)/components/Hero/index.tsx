@@ -54,7 +54,7 @@ export function Hero() {
                 src={LogoGenograma}
                 width={600}
                 height={600}
-                className="z-50 h-auto w-44 sm:h-auto sm:w-64"
+                className="h-auto w-44 sm:h-auto sm:w-64"
                 alt="Logo Genograma"
                 loading="lazy"
               />
@@ -126,6 +126,8 @@ export function Hero() {
                   Reservados
                 </li>
               </ul>
+            </div>
+            <div className="flex flex-col-reverse px-8 justify-center pt-4 lg:flex-row">
               <ul className="mb-3 flex flex-row items-center justify-center space-x-2 sm:space-y-0 lg:mb-0">
                 <li className="text-xs text-zinc-400">Desenvolvido por</li>
                 <li>
