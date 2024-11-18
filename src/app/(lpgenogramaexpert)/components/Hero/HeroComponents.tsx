@@ -7,7 +7,7 @@ export interface HeroComponents {
 type HeroRootProps = ComponentProps<'section'>
 
 export function HeroRoot(props: HeroRootProps) {
-  return <section className="relative h-svh overflow-x-hidden" {...props} />
+  return <section className="relative h-svh overflow-hidden" {...props} />
 }
 
 type HeroGradientProps = ComponentProps<'div'>
@@ -25,8 +25,8 @@ type HeroPropertyProps = ComponentProps<'div'>
 
 export function HeroProperty(props: HeroPropertyProps) {
   return (
-    <div className="mt-44 pt-8 sm:my-10 sm:py-0">
-      <div className="mx-auto max-w-6xl justify-between gap-x-6 px-2 md:flex">
+    <div className="pt-44 sm:my-28 sm:py-0">
+      <div className="mx-auto max-w-6xl justify-between gap-x-4 px-2 md:flex">
         <div className="max-w-3xl space-y-4" {...props} />
       </div>
     </div>
@@ -37,8 +37,8 @@ type HeroPropertyFooterProps = ComponentProps<'footer'>
 
 export function HeroPropertyFooter(props: HeroPropertyFooterProps) {
   return (
-    <div className="mx-auto justify-center gap-x-2 -mt-16 px-4 md:flex">
-      <footer className="max-w-full space-y-2 mb-6" {...props} />
+    <div className="mx-auto justify-center gap-x-2 -mt-6 sm:-mt-12 pb-6 px-4 md:flex">
+      <footer className="max-w-full space-y-2" {...props} />
     </div>
   )
 }
