@@ -33,14 +33,12 @@ export function HeroProperty(props: HeroPropertyProps) {
   )
 }
 
-type HeroPropertyFooterProps = ComponentProps<'div'>
+type HeroPropertyFooterProps = ComponentProps<'footer'>
 
 export function HeroPropertyFooter(props: HeroPropertyFooterProps) {
   return (
-    <div className="sm:my-8 sm:py-0">
-      <div className="mx-auto justify-center gap-x-2 px-4 md:flex">
-        <div className="max-w-full space-y-2" {...props} />
-      </div>
+    <div className="mx-auto justify-center gap-x-2 -mt-16 px-4 md:flex">
+      <footer className="max-w-full space-y-2 mb-6" {...props} />
     </div>
   )
 }
@@ -111,7 +109,7 @@ export function HeroImgProperty(props: HeroImgPropertyProps) {
   return (
     <>
       <div
-        className="flex justify-start sm:flex-none sm:justify-start"
+        className="z-50 flex justify-start sm:flex-none sm:justify-start"
         {...props}
       />
     </>
