@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import imgDesktop from '@/app/assets/images/genogramaexpert/desktop-produtora.webp'
-import imgMobile from '@/app/assets/images/genogramaexpert/mobile-produtora.webp'
-import LogoGenograma from '@/app/assets/images/genogramaexpert/logogenograma-gold.webp'
+import imgDesktop from '@/app/assets/images/browextension/desktop-produtora.webp'
+import imgMobile from '@/app/assets/images/browextension/mobile-produtora.webp'
+import LogoGenograma from '@/app/assets/images/browextension/logo-brownextension.webp'
 
 import {
   HeroCard,
@@ -51,44 +51,45 @@ export function Hero() {
                 src={LogoGenograma}
                 width={600}
                 height={600}
-                className="h-auto w-44 sm:h-auto sm:w-64"
+                className="h-auto w-24 sm:h-auto sm:w-28"
                 alt="Logo Genograma"
                 loading="lazy"
               />
             </HeroImgProperty>
             <HeroCardText>
               <HeroCardH1>
-                Rompa com padrões de{' '}
+                Garanta Acesso Vitalício ao{' '}
                 <span className="bg-brandPrimary bg-clip-text font-black text-transparent">
-                  comportamentos que se repetem em no mínimo 3 gerações
+                  Método Brow Extension Pro 4.0! {''}
                 </span>
+                A Oferta Exclusiva da Black Friday Que Vai Transformar Sua
+                Carreira para Sempre!
               </HeroCardH1>
               <HeroCardP1>
-                Trabalhe a causa raiz dos problemas e formule hipóteses,
-                estratégias e um plano terapêutico desde a primeira sessão
+                A única técnica de extensão de sobrancelhas com certificação MEC
+                e durabilidade excepcional na acoplagem de fios diretamente na
+                pele. Resultados naturais e sofisticados que você e seus
+                clientes vão amar!
               </HeroCardP1>
-              <div className="bg-gradient-to-r from-transparent via-white/10 to-transparent backdrop-blur-lg max-w-fit">
-                <HeroCardP3>► Bônus exclusivo 01: Ecomapa R$97,00</HeroCardP3>
-                <HeroCardP3>
-                  ► Bônus exclusivo 02: Mentalidade Financeira R$97,00
-                </HeroCardP3>
-                <HeroCardP1>
-                  De{' '}
-                  <span className="line-through text-red-500">R$1.191,00</span>{' '}
-                  por{' '}
-                </HeroCardP1>
-                <HeroCardP1>
-                  <span className="text-green-500 text-4xl">
-                    12x de R$29,64
-                  </span>
-                </HeroCardP1>
-              </div>
             </HeroCardText>
-            <ButtonHome href="https://go.hotmart.com/N96345039N">
+            <div className="mx-auto sm:mx-0 text-center sm:text-left bg-gradient-to-r from-transparent via-white/10 to-transparent backdrop-blur-lg max-w-fit">
+              <HeroCardP3>► Certificação MEC</HeroCardP3>
+              <HeroCardP3>► Acesso à Blindagem de Sobrancelhas</HeroCardP3>
+              <HeroCardP3>► Acesso Vitalício e Bônus Inéditos</HeroCardP3>
+              <HeroCardP1>
+                De <span className="line-through text-zinc-300">R$997</span> por{' '}
+              </HeroCardP1>
+              <HeroCardP1>
+                <span className="text-brandPrimary text-4xl font-black">
+                  R$597,00
+                </span>
+              </HeroCardP1>
+            </div>
+            <ButtonHome href="https://go.hotmart.com/A96669387V?ap=47b6">
               <ButtonHomeText>acessar o site completo</ButtonHomeText>
               <ButtonHomeFlex>
                 <ArrowCircleUpRight
-                  className="h-5 w-5 sm:h-6 sm:w-6"
+                  className="h-5 w-5 sm:h-6 sm:w-6 fill-zinc-950"
                   weight="fill"
                 />
               </ButtonHomeFlex>

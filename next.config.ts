@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
         destination: '/genogramaexpert',
         permanent: false,
       },
+      {
+        source: '/',
+        destination: '/browextension',
+        permanent: false,
+      },
     ]
   },
 }

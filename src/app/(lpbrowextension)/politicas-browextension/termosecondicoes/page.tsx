@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+      <title>Termos e Condições</title>
       <div className="grid h-auto max-w-full place-content-center bg-zinc-950 px-4">
         <div className="text-center max-w-4xl pt-32 pb-10 space-y-4">
           <h1 className="font-black pb-4 text-zinc-300 text-5xl md:text-7xl sm:text-6xl">

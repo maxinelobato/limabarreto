@@ -10,16 +10,13 @@ export function Footer() {
         <div className="mx-auto space-y-5 px-8 text-center">
           <ul className="menu menu-horizontal menu-xs justify-center bg-zinc-800/20 backdrop-blur-sm rounded-full text-white">
             <li>
-              <Link
-                href="/politicas-genogramaexpert/avisolegal"
-                target="_blank"
-              >
+              <Link href="/politicas-browextension/avisolegal" target="_blank">
                 Aviso Legal
               </Link>
             </li>
             <li>
               <Link
-                href="/politicas-genogramaexpert/termosecondicoes"
+                href="/politicas-browextension/termosecondicoes"
                 target="_blank"
               >
                 Termos de Uso
@@ -27,7 +24,7 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="/politicas-genogramaexpert/politicadeprivacidade"
+                href="/politicas-browextension/politicadeprivacidade"
                 target="_blank"
               >
                 Política de Privacidade

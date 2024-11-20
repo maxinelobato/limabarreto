@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        brandPrimary: '#D4A12C',
+        brandPrimary: '#E7C978',
         brandWts: '#006400',
       },
     },
