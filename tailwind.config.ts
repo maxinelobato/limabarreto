@@ -12,6 +12,10 @@ export default {
         brandPrimary: '#E7C978',
         brandWts: '#006400',
       },
+      backgroundImage: {
+        bgDesktop: "url('/browextension/desktop-produtora.webp')",
+        bgMobile: "url('/browextension/mobile-produtora.webp')",
+      },
     },
     screens: {
       sm: '640px',
