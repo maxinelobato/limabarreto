@@ -13,8 +13,12 @@ export default {
         brandWts: '#006400',
       },
       backgroundImage: {
-        bgDesktop: "url('/browextension/desktop-produtora.webp')",
-        bgMobile: "url('/browextension/mobile-produtora.webp')",
+        bgDesktopBrowLamination: "url('/browextension/desktop-produtora.webp')",
+        bgMobileBrowLamination: "url('/browextension/mobile-produtora.webp')",
+        bgDesktopGenogramaExpert:
+          "url('/genogramaexpert/desktop-produtora.webp')",
+        bgMobileGenogramaExpert:
+          "url('/genogramaexpert/mobile-produtora.webp')",
       },
     },
     screens: {

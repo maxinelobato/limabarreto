@@ -12,20 +12,20 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/genogramaexpert',
-        permanent: false,
-      },
-      {
-        source: '/',
-        destination: '/browextension',
-        permanent: false,
-      },
-    ]
-  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/genogramaexpert',
+  //       destination: '/genogramaexpert',
+  //       permanent: false,
+  //     },
+  //     {
+  //       source: '/browextension',
+  //       destination: '/browextension',
+  //       permanent: false,
+  //     },
+  //   ]
+  // },
 }
 
 export default nextConfig

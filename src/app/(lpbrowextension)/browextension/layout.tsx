@@ -26,7 +26,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
         className={`${roboto.className} antialiased`}
       >
-        {children}
+        <main className="bg-zinc-950">{children}</main>
       </body>
     </html>
   )

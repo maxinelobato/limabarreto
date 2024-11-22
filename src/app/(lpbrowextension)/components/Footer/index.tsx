@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LogoLM from '@/app/assets/images/lb.org-branca.svg'
+import LogoLM from '../../../../../public/lb.org-branca.svg'
 import Link from 'next/link'
 import { HeroPropertyFooter } from './FooterComponents'
 
@@ -36,7 +36,7 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          {/* <div className="flex flex-col-reverse px-8 justify-between pt-10 lg:flex-row">
+          <div className="flex flex-col-reverse px-8 justify-between pt-10 lg:flex-row">
             <ul className="mb-3 flex flex-row items-center justify-center space-x-2 sm:space-y-0 lg:mb-0">
               <li className="text-center text-xs text-zinc-400 sm:text-left">
                 Lima Barreto Organizações © 2024 - Todos os Direitos Reservados
@@ -57,7 +57,7 @@ export function Footer() {
                 />
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </HeroPropertyFooter>
     </>

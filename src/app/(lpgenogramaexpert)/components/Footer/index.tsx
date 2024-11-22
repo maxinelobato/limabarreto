@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LogoLM from '@/app/assets/images/lb.org-branca.svg'
+import LogoLM from '../../../../../public/lb.org-branca.svg'
 import Link from 'next/link'
 import { HeroPropertyFooter } from '../Hero/HeroComponents'
 

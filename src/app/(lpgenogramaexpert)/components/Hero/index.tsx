@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import imgDesktop from '@/app/assets/images/genogramaexpert/desktop-produtora.webp'
-import imgMobile from '@/app/assets/images/genogramaexpert/mobile-produtora.webp'
-import LogoGenograma from '@/app/assets/images/genogramaexpert/logogenograma-gold.webp'
+import imgDesktop from '../../../../../public/genogramaexpert/desktop-produtora.webp'
+import imgMobile from '../../../../../public/genogramaexpert/mobile-produtora.webp'
+import LogoGenograma from '../../../../../public/genogramaexpert/logogenograma-gold.webp'
 
 import {
   HeroCard,

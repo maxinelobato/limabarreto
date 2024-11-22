@@ -130,7 +130,7 @@ export default function Home() {
           </p>
 
           <a
-            href="/genogramaexpert"
+            href="/browextension"
             className="mt-6 uppercase inline-block rounded-full bg-brandPrimary hover:transition-colors hover: hover:bg-yellow-600 px-5 py-3 text-sm font-medium text-yellow-950"
           >
             voltar para o site

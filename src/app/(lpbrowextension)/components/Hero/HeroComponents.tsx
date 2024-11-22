@@ -14,7 +14,7 @@ type HeroSectionProps = ComponentProps<'div'>
 
 export function HeroSection(props: HeroSectionProps) {
   return (
-    <section className="md:bgDesktop lg:bgDesktop hero min-h-min bg-bgMobile bg-cover bg-fixed bg-center bg-no-repeat sm:bg-bgDesktop sm:bg-cover md:bg-cover lg:bg-cover">
+    <section className="md:bgDesktopBrowLamination lg:bgDesktopBrowLamination hero min-h-min bg-bgMobileBrowLamination bg-cover bg-fixed bg-center bg-no-repeat sm:bg-bgDesktopBrowLamination sm:bg-cover md:bg-cover lg:bg-cover">
       <div
         className="hero-overlay bg-opacity-0 bg-gradient-to-r from-black/5 from-5%"
         {...props}
