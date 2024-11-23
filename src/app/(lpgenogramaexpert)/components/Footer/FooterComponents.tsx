@@ -9,7 +9,7 @@ type FooterRootProps = ComponentProps<'footer'>
 export function FooterRoot(props: FooterRootProps) {
   return (
     <footer
-      className="max-w-full space-y-2 mx-auto justify-center gap-x-2 px-px pb-4 sm:pb-10 md:flex"
+      className="max-w-full space-y-2 mx-auto justify-center gap-x-2 px-px pt-4 pb-4 sm:pb-10 md:flex"
       {...props}
     />
   )
@@ -24,7 +24,7 @@ export function FooterCenter(props: FooterCenterProps) {
 type FooterMenuHorizontelProps = ComponentProps<'div'>
 
 export function FooterMenuHorizontel(props: FooterMenuHorizontelProps) {
-  return <div className="mx-auto space-y-5 px-8 text-center" {...props} />
+  return <div className="mx-auto space-y-5 px-4 text-center" {...props} />
 }
 
 type FooterUlMenuHorizontalProps = ComponentProps<'ul'>
@@ -32,7 +32,7 @@ type FooterUlMenuHorizontalProps = ComponentProps<'ul'>
 export function FooterUlMenuHorizontal(props: FooterUlMenuHorizontalProps) {
   return (
     <ul
-      className="menu menu-horizontal menu-xs justify-center bg-zinc-800/20 backdrop-blur-sm rounded-full text-white"
+      className="menu menu-horizontal menu-xs justify-center text-white"
       {...props}
     />
   )
@@ -51,7 +51,7 @@ export function FooterFlexColReverseJustify(
 ) {
   return (
     <div
-      className="flex flex-col-reverse px-8 justify-between pt-10 lg:flex-row"
+      className="flex flex-col-reverse px-4 justify-between pt-2 lg:flex-row"
       {...props}
     />
   )
@@ -83,7 +83,7 @@ export function FooterFlexColReverseCenter(
 ) {
   return (
     <div
-      className="flex flex-col-reverse px-8 justify-center pt-4 lg:flex-row"
+      className="flex flex-col-reverse px-8 justify-center pt-2 lg:flex-row"
       {...props}
     />
   )

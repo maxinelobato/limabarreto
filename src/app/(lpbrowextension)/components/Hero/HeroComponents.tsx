@@ -27,7 +27,7 @@ type HeroPropertyProps = ComponentProps<'div'>
 
 export function HeroProperty(props: HeroPropertyProps) {
   return (
-    <div className="mt-48 pt-8 sm:my-12 sm:py-8">
+    <div className="mt-60 pt-8 sm:my-12 sm:py-8">
       <div className="mx-auto max-w-screen-xl justify-between gap-x-12 px-4 md:flex md:px-8">
         <div className="max-w-3xl space-y-4" {...props} />
       </div>
@@ -39,7 +39,7 @@ type HeroCardProps = ComponentProps<'div'>
 
 export function HeroCard(props: HeroCardProps) {
   return (
-    <div className="bg-black/10 backdrop-blur-sm max-w-fit p-2 rounded-lg card-compact h-auto w-full min-w-full">
+    <div className="bg-black/30 backdrop-blur-sm max-w-fit rounded-lg card-compact h-auto w-full min-w-full">
       <div className="card-body" {...props} />
     </div>
   )
@@ -56,7 +56,7 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className="mt-0 sm:mt-4 pb-4 text-2xl font-extrabold text-brandBrowExtension drop-shadow-lg md:text-4xl"
+      className="mt-0 sm:mt-4 pb-2 text-lg uppercase font-extrabold text-brandBrowExtension drop-shadow-lg md:text-3xl"
       {...props}
     />
   )
@@ -103,7 +103,7 @@ type HeroCardP2Props = ComponentProps<'p'>
 export function HeroCardP2(props: HeroCardP2Props) {
   return (
     <p
-      className="pb-1 pt-1 text-sm leading-relaxed text-white md:text-xl"
+      className="pb-1 pt-1 text-sm leading-relaxed text-white md:text-lg"
       {...props}
     />
   )
@@ -138,7 +138,7 @@ export function HeroCardBanner(props: HeroCardBannerProps) {
   return (
     <>
       <div
-        className="p-2 rounded-lg mx-auto sm:mx-0 text-center sm:text-left bg-white/10 backdrop-blur-lg max-w-fit"
+        className="p-2 rounded-lg mx-auto sm:mx-0 text-center sm:text-left bg-black/60 backdrop-blur-lg max-w-fit"
         {...props}
       />
     </>
