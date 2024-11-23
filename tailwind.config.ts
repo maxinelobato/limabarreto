@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        brandPrimary: '#E7C978',
-        brandWts: '#006400',
+        brandGenograma: '#cc9933',
+        brandBrowExtension: '#E7C978',
       },
       backgroundImage: {
         bgDesktopBrowLamination: "url('/browextension/desktop-produtora.webp')",
@@ -21,22 +21,6 @@ export default {
           "url('/genogramaexpert/mobile-produtora.webp')",
       },
     },
-    screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
-    },
-  },
-  daisyui: {
-    themes: [
-      {
-        brand: {
-          primary: '#5c2c0c',
-        },
-      },
-    ],
   },
   plugins: [require('daisyui'), require('tailwindcss-directional-shadows')],
 } satisfies Config

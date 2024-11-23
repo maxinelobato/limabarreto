@@ -5,7 +5,7 @@ export function ButtonFloatWttp() {
   return (
     <>
       <ButtonFloat href="https://go.hotmart.com/N96345039N">
-        <ArrowCircleUpRight className="h-8 w-8" weight="fill" />
+        <ArrowCircleUpRight className="h-8 w-8 fill-zinc-950" weight="fill" />
       </ButtonFloat>
     </>
   )

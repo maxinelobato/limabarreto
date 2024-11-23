@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <>
@@ -13,7 +15,7 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
-            Ao acessar ao site Genograma Expert 2.0, concorda em cumprir estes
+            Ao acessar ao site Brow Extension Pro 4.0, concorda em cumprir estes
             termos de serviço, todas as leis e regulamentos aplicáveis ​​e
             concorda que é responsável pelo cumprimento de todas as leis locais
             aplicáveis. Se você não concordar com algum desses termos, está
@@ -28,7 +30,7 @@ export default function Home() {
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
             É concedida permissão para baixar temporariamente uma cópia dos
-            materiais (informações ou software) no site Genograma Expert 2.0 ,
+            materiais (informações ou software) no site Brow Extension Pro 4.0 ,
             apenas para visualização transitória pessoal e não comercial. Esta é
             a concessão de uma licença, não uma transferência de título e, sob
             esta licença, você não pode:
@@ -44,7 +46,7 @@ export default function Home() {
             </li>
             <li className="list-inside indent-8">
               tentar descompilar ou fazer engenharia reversa de qualquer
-              software contido no site Genograma Expert 2.0;
+              software contido no site Brow Extension Pro 4.0;
             </li>
             <li className="list-inside indent-8">
               remover quaisquer direitos autorais ou outras notações de
@@ -62,15 +64,16 @@ export default function Home() {
 
           <ul className="list-decimal text-justify text-zinc-200 text-sm sm:text-base">
             <li className="list-inside indent-8">
-              Os materiais no site da Genograma Expert 2.0 são fornecidos 'como
-              estão'. Genograma Expert 2.0 não oferece garantias, expressas ou
-              implícitas, e, por este meio, isenta e nega todas as outras
-              garantias, incluindo, sem limitação, garantias implícitas ou
-              condições de comercialização, adequação a um fim específico ou não
-              violação de propriedade intelectual ou outra violação de direitos.
+              Os materiais no site da Brow Extension Pro 4.0 são fornecidos
+              'como estão'. Brow Extension Pro 4.0 não oferece garantias,
+              expressas ou implícitas, e, por este meio, isenta e nega todas as
+              outras garantias, incluindo, sem limitação, garantias implícitas
+              ou condições de comercialização, adequação a um fim específico ou
+              não violação de propriedade intelectual ou outra violação de
+              direitos.
             </li>
             <li className="list-inside indent-8">
-              Além disso, o Genograma Expert 2.0 não garante ou faz qualquer
+              Além disso, o Brow Extension Pro 4.0 não garante ou faz qualquer
               representação relativa à precisão, aos resultados prováveis ​​ou à
               confiabilidade do uso dos materiais em seu site ou de outra forma
               relacionado a esses materiais ou em sites vinculados a este site.
@@ -82,12 +85,12 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
-            Em nenhum caso o Genograma Expert 2.0 ou seus fornecedores serão
+            Em nenhum caso o Brow Extension Pro 4.0 ou seus fornecedores serão
             responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos
             por perda de dados ou lucro ou devido a interrupção dos negócios)
-            decorrentes do uso ou da incapacidade de usar os materiais em
-            Genograma Expert 2.0, mesmo que Genograma Expert 2.0 ou um
-            representante autorizado da Genograma Expert 2.0 tenha sido
+            decorrentes do uso ou da incapacidade de usar os materiais em Brow
+            Extension Pro 4.0, mesmo que Brow Extension Pro 4.0 ou um
+            representante autorizado da Brow Extension Pro 4.0 tenha sido
             notificado oralmente ou por escrito da possibilidade de tais danos.
             Como algumas jurisdições não permitem limitações em garantias
             implícitas, ou limitações de responsabilidade por danos conseqüentes
@@ -99,12 +102,12 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
-            Os materiais exibidos no site da Genograma Expert 2.0 podem incluir
-            erros técnicos, tipográficos ou fotográficos. Genograma Expert 2.0
-            não garante que qualquer material em seu site seja preciso, completo
-            ou atual. Genograma Expert 2.0 pode fazer alterações nos materiais
-            contidos em seu site a qualquer momento, sem aviso prévio. No
-            entanto, Genograma Expert 2.0 não se compromete a atualizar os
+            Os materiais exibidos no site da Brow Extension Pro 4.0 podem
+            incluir erros técnicos, tipográficos ou fotográficos. Brow Extension
+            Pro 4.0 não garante que qualquer material em seu site seja preciso,
+            completo ou atual. Brow Extension Pro 4.0 pode fazer alterações nos
+            materiais contidos em seu site a qualquer momento, sem aviso prévio.
+            No entanto, Brow Extension Pro 4.0 não se compromete a atualizar os
             materiais.
           </p>
 
@@ -113,9 +116,9 @@ export default function Home() {
           </h2>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
-            O Genograma Expert 2.0 não analisou todos os sites vinculados ao seu
-            site e não é responsável pelo conteúdo de nenhum site vinculado. A
-            inclusão de qualquer link não implica endosso por Genograma Expert
+            O Brow Extension Pro 4.0 não analisou todos os sites vinculados ao
+            seu site e não é responsável pelo conteúdo de nenhum site vinculado.
+            A inclusão de qualquer link não implica endosso por Genograma Expert
             2.0 do site. O uso de qualquer site vinculado é por conta e risco do
             usuário.
           </p>
@@ -125,8 +128,8 @@ export default function Home() {
           </p>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
-            O Genograma Expert 2.0 pode revisar estes termos de serviço do site
-            a qualquer momento, sem aviso prévio. Ao usar este site, você
+            O Brow Extension Pro 4.0 pode revisar estes termos de serviço do
+            site a qualquer momento, sem aviso prévio. Ao usar este site, você
             concorda em ficar vinculado à versão atual desses termos de serviço.
           </p>
 
@@ -136,16 +139,18 @@ export default function Home() {
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base pb-4">
             Estes termos e condições são regidos e interpretados de acordo com
-            as leis do Genograma Expert 2.0 e você se submete irrevogavelmente à
-            jurisdição exclusiva dos tribunais naquele estado ou localidade.
+            as leis do Brow Extension Pro 4.0 e você se submete irrevogavelmente
+            à jurisdição exclusiva dos tribunais naquele estado ou localidade.
           </p>
 
-          <a
-            href="/browextension"
+          <Link
+            href={{
+              pathname: '/browextension',
+            }}
             className="mt-6 uppercase inline-block rounded-full bg-brandPrimary hover:transition-colors hover: hover:bg-yellow-600 px-5 py-3 text-sm font-medium text-yellow-950"
           >
             voltar para o site
-          </a>
+          </Link>
         </div>
       </div>
     </>

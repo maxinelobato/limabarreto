@@ -56,7 +56,18 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className="mt-0 sm:mt-4 pb-4 text-2xl font-extrabold text-brandPrimary drop-shadow-lg md:text-4xl"
+      className="mt-0 sm:mt-4 pb-4 text-2xl font-extrabold text-brandBrowExtension drop-shadow-lg md:text-4xl"
+      {...props}
+    />
+  )
+}
+
+type HeroCardH1SpanProps = ComponentProps<'span'>
+
+export function HeroCardH1Span(props: HeroCardH1SpanProps) {
+  return (
+    <span
+      className="bg-clip-text font-black text-transparent bg-white"
       {...props}
     />
   )
@@ -70,6 +81,20 @@ export function HeroCardP1(props: HeroCardP1Props) {
       className="mt-4 pb-4 text-sm leading-relaxed text-white md:text-xl"
       {...props}
     />
+  )
+}
+
+type HeroCardP1Span1Props = ComponentProps<'span'>
+
+export function HeroCardP1Span1(props: HeroCardP1Span1Props) {
+  return <span className="line-through text-zinc-300" {...props} />
+}
+
+type HeroCardP1Span2Props = ComponentProps<'span'>
+
+export function HeroCardP1Span2(props: HeroCardP1Span2Props) {
+  return (
+    <span className="text-brandBrowExtension text-4xl font-black" {...props} />
   )
 }
 
@@ -101,6 +126,19 @@ export function HeroImgProperty(props: HeroImgPropertyProps) {
     <>
       <div
         className="flex justify-center sm:flex-none sm:justify-start"
+        {...props}
+      />
+    </>
+  )
+}
+
+type HeroCardBannerProps = ComponentProps<'div'>
+
+export function HeroCardBanner(props: HeroCardBannerProps) {
+  return (
+    <>
+      <div
+        className="p-2 rounded-lg mx-auto sm:mx-0 text-center sm:text-left bg-white/10 backdrop-blur-lg max-w-fit"
         {...props}
       />
     </>

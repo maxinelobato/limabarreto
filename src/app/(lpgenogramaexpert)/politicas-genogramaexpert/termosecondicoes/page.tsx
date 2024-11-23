@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <>
-      <title>Termos e Condições</title>
+      <title>Termos e Condições | Genograma Expert</title>
       <div className="grid h-auto max-w-full place-content-center bg-zinc-950 px-4">
         <div className="text-center max-w-4xl pt-32 pb-10 space-y-4">
           <h1 className="font-black pb-4 text-zinc-300 text-5xl md:text-7xl sm:text-6xl">
@@ -140,12 +142,14 @@ export default function Home() {
             jurisdição exclusiva dos tribunais naquele estado ou localidade.
           </p>
 
-          <a
-            href="/genogramaexpert"
-            className="mt-6 uppercase inline-block rounded-full bg-brandPrimary hover:transition-colors hover: hover:bg-yellow-600 px-5 py-3 text-sm font-medium text-yellow-950"
+          <Link
+            href={{
+              pathname: '/genogramaexpert',
+            }}
+            className="mt-6 uppercase inline-block rounded-full bg-brandGenograma hover:transition-colors hover: hover:bg-yellow-600 px-5 py-3 text-sm font-medium text-yellow-950"
           >
             voltar para o site
-          </a>
+          </Link>
         </div>
       </div>
     </>

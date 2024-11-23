@@ -1,52 +1,65 @@
 import Image from 'next/image'
 import LogoLM from '../../../../../public/lb.org-branca.svg'
 import Link from 'next/link'
-import { HeroPropertyFooter } from './FooterComponents'
+import {
+  FooterCenter,
+  FooterFlexColReverseCenter,
+  FooterFlexColReverseJustify,
+  FooterLiBrand,
+  FooterLiBrandImg,
+  FooterLiMenuHorizontal,
+  FooterLiRights,
+  FooterMenuHorizontel,
+  FooterRoot,
+  FooterUlBrand,
+  FooterUlMenuHorizontal,
+  FooterUlRights,
+} from './FooterComponents'
 
 export function Footer() {
   return (
     <>
-      <HeroPropertyFooter>
-        <div className="mx-auto text-center">
-          <div className="mx-auto space-y-5 px-8 text-center">
-            <ul className="menu menu-horizontal menu-xs justify-center bg-zinc-800/20 backdrop-blur-sm rounded-full text-white">
-              <li>
+      <FooterRoot>
+        <FooterCenter>
+          <FooterMenuHorizontel>
+            <FooterUlMenuHorizontal>
+              <FooterLiMenuHorizontal>
                 <Link
                   href="/politicas-browextension/avisolegal"
                   target="_blank"
                 >
                   Aviso Legal
                 </Link>
-              </li>
-              <li>
+              </FooterLiMenuHorizontal>
+              <FooterLiMenuHorizontal>
                 <Link
                   href="/politicas-browextension/termosecondicoes"
                   target="_blank"
                 >
                   Termos de Uso
                 </Link>
-              </li>
-              <li>
+              </FooterLiMenuHorizontal>
+              <FooterLiMenuHorizontal>
                 <Link
                   href="/politicas-browextension/politicadeprivacidade"
                   target="_blank"
                 >
                   Política de Privacidade
                 </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col-reverse px-8 justify-between pt-10 lg:flex-row">
-            <ul className="mb-3 flex flex-row items-center justify-center space-x-2 sm:space-y-0 lg:mb-0">
-              <li className="text-center text-xs text-zinc-400 sm:text-left">
+              </FooterLiMenuHorizontal>
+            </FooterUlMenuHorizontal>
+          </FooterMenuHorizontel>
+          <FooterFlexColReverseJustify>
+            <FooterUlRights>
+              <FooterLiRights>
                 Lima Barreto Organizações © 2024 - Todos os Direitos Reservados
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col-reverse px-8 justify-center pt-4 lg:flex-row">
-            <ul className="mb-3 flex flex-row items-center justify-center space-x-2 sm:space-y-0 lg:mb-0">
-              <li className="text-xs text-zinc-400">Desenvolvido por</li>
-              <li>
+              </FooterLiRights>
+            </FooterUlRights>
+          </FooterFlexColReverseJustify>
+          <FooterFlexColReverseCenter>
+            <FooterUlBrand>
+              <FooterLiBrand>Desenvolvido por</FooterLiBrand>
+              <FooterLiBrandImg>
                 <Image
                   alt="Logo"
                   width={80}
@@ -55,11 +68,11 @@ export function Footer() {
                   src={LogoLM}
                   className="w-5 sm:mx-auto"
                 />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </HeroPropertyFooter>
+              </FooterLiBrandImg>
+            </FooterUlBrand>
+          </FooterFlexColReverseCenter>
+        </FooterCenter>
+      </FooterRoot>
     </>
   )
 }
