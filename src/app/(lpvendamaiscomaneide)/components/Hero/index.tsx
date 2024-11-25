@@ -61,7 +61,7 @@ export function Hero() {
                 <HeroCardP1Span2>R$297,00</HeroCardP1Span2>
               </HeroCardP1>
             </HeroCardBanner>
-            <ButtonHome href="https://go.hotmart.com/A96669387V?ap=47b6">
+            <ButtonHome href="https://go.hotmart.com/P96403660J">
               <ButtonHomeText>acessar o site completo</ButtonHomeText>
               <ButtonHomeFlex>
                 <ArrowCircleUpRight

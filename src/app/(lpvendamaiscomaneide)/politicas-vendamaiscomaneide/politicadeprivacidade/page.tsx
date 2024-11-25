@@ -19,8 +19,8 @@ export default function Home() {
         <RootProperty>
           <Heading>Política de Privacidade</Heading>
           <Paragraph>
-            A sua privacidade é importante para nós. É política do Brow
-            Extension Pro 4.0 respeitar a sua privacidade em relação a qualquer
+            A sua privacidade é importante para nós. É política do Venda Mais
+            Com A Neide 4.0 respeitar a sua privacidade em relação a qualquer
             informação sua que possamos coletar no site Venda Mais Com A Neide
             4.0, e outros sites que possuímos e operamos.
           </Paragraph>

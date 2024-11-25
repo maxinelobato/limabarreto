@@ -90,10 +90,10 @@ export default function Home() {
             serão responsáveis ​​por quaisquer danos (incluindo, sem limitação,
             danos por perda de dados ou lucro ou devido a interrupção dos
             negócios) decorrentes do uso ou da incapacidade de usar os materiais
-            em Brow Extension Pro 4.0, mesmo que Venda Mais Com A Neide 4.0 ou
-            um representante autorizado da Venda Mais Com A Neide 4.0 tenha sido
-            notificado oralmente ou por escrito da possibilidade de tais danos.
-            Como algumas jurisdições não permitem limitações em garantias
+            em Venda Mais Com A Neide 4.0, mesmo que Venda Mais Com A Neide 4.0
+            ou um representante autorizado da Venda Mais Com A Neide 4.0 tenha
+            sido notificado oralmente ou por escrito da possibilidade de tais
+            danos. Como algumas jurisdições não permitem limitações em garantias
             implícitas, ou limitações de responsabilidade por danos conseqüentes
             ou incidentais, essas limitações podem não se aplicar a você.
           </p>
@@ -104,12 +104,12 @@ export default function Home() {
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
             Os materiais exibidos no site da Venda Mais Com A Neide 4.0 podem
-            incluir erros técnicos, tipográficos ou fotográficos. Brow Extension
-            Pro 4.0 não garante que qualquer material em seu site seja preciso,
-            completo ou atual. Venda Mais Com A Neide 4.0 pode fazer alterações
-            nos materiais contidos em seu site a qualquer momento, sem aviso
-            prévio. No entanto, Venda Mais Com A Neide 4.0 não se compromete a
-            atualizar os materiais.
+            incluir erros técnicos, tipográficos ou fotográficos. Venda Mais Com
+            A Neide 4.0 não garante que qualquer material em seu site seja
+            preciso, completo ou atual. Venda Mais Com A Neide 4.0 pode fazer
+            alterações nos materiais contidos em seu site a qualquer momento,
+            sem aviso prévio. No entanto, Venda Mais Com A Neide 4.0 não se
+            compromete a atualizar os materiais.
           </p>
 
           <h2 className="text-justify font-black pb-2 text-zinc-300 text-3xl md:text-xl sm:text-2xl">
