@@ -94,7 +94,10 @@ type HeroCardP1Span2Props = ComponentProps<'span'>
 
 export function HeroCardP1Span2(props: HeroCardP1Span2Props) {
   return (
-    <span className="text-brandBrowExtension text-4xl font-black" {...props} />
+    <span
+      className="text-brandVendaMaisComANeideFive text-4xl font-black"
+      {...props}
+    />
   )
 }
 
@@ -138,7 +141,7 @@ export function HeroCardBanner(props: HeroCardBannerProps) {
   return (
     <>
       <div
-        className="p-2 rounded-lg mx-auto sm:mx-0 text-center sm:text-left bg-black/60 backdrop-blur-lg max-w-fit"
+        className="p-2 rounded-lg mx-auto sm:mx-0 text-center sm:text-left bg-gradient-to-l from-brandVendaMaisComANeideOne/60 to-brandVendaMaisComANeideTwo/60 backdrop-blur-lg max-w-fit"
         {...props}
       />
     </>

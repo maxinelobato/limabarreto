@@ -15,6 +15,7 @@ export default {
         brandVendaMaisComANeideTwo: '#004167',
         brandVendaMaisComANeideThree: '#34D434',
         brandVendaMaisComANeideFour: '#0E7834',
+        brandVendaMaisComANeideFive: '#FFC93D',
       },
       backgroundImage: {
         bgDesktopBrowLamination: "url('/browextension/desktop-produtora.webp')",
