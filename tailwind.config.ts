@@ -11,6 +11,10 @@ export default {
       colors: {
         brandGenograma: '#cc9933',
         brandBrowExtension: '#E7C978',
+        brandVendaMaisComANeideOne: '#0091D6',
+        brandVendaMaisComANeideTwo: '#004167',
+        brandVendaMaisComANeideThree: '#34D434',
+        brandVendaMaisComANeideFour: '#0E7834',
       },
       backgroundImage: {
         bgDesktopBrowLamination: "url('/browextension/desktop-produtora.webp')",
@@ -19,6 +23,10 @@ export default {
           "url('/genogramaexpert/desktop-produtora.webp')",
         bgMobileGenogramaExpert:
           "url('/genogramaexpert/mobile-produtora.webp')",
+        bgDesktopVendaMaisComANeide:
+          "url('/vendamaiscomaneide/desktop-produtora.webp')",
+        bgMobileVendaMaisComANeide:
+          "url('/vendamaiscomaneide/mobile-produtora.webp')",
       },
     },
   },
